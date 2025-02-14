@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Zimmerer | Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: #f4f4f4; }
+        header { background: #333; color: white; padding: 20px; font-size: 24px; }
+        section { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+        a { color: #0073e6; text-decoration: none; }
+        .projects { display: flex; flex-wrap: wrap; justify-content: center; }
+        .project { background: #eee; padding: 10px; margin: 10px; border-radius: 5px; width: 45%; }
+    </style>
+</head>
+<body>
+    <header>Alexander Zimmerer | System Engineering & Software Architecture</header>
+    
+    <section>
+        <h2>Über mich</h2>
+        <p>Ich bin ein erfahrener Team Manager mit über 10 Jahren in System Engineering & Software-Architektur, spezialisiert auf autonomes Fahren, funktionale Sicherheit und modellbasierte Entwicklung.</p>
+    </section>
+    
+    <section>
+        <h2>Projekte</h2>
+        <div class="projects" id="github-projects"></div>
+    </section>
+    
+    <section>
+        <h2>Kontakt</h2>
+        <p><a href="https://www.linkedin.com/in/alexander-zimmerer-97620275/">LinkedIn</a> | <a href="mailto:alexander.zimmerer1988@gmail.com">E-Mail</a></p>
+    </section>
+    
+    <script>
+        const githubUsername = "AlZi-88"; // Set your actual GitHub username here
+        fetch(`https://api.github.com/users/${githubUsername}/repos`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`GitHub API returned status ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            let projectContainer = document.getElementById('github-projects');
+            if (data.length === 0) {
+                projectContainer.innerHTML = "<p>Keine Projekte gefunden.</p>";
+                return;
+            }
+            data.forEach(repo => {
+                let project = document.createElement('div');
+                project.className = 'project';
+                project.innerHTML = `<h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3><p>${repo.description || 'Keine Beschreibung vorhanden'}</p>`;
+                projectContainer.appendChild(project);
+            });
+        })
+        .catch(error => {
+            console.error('Fehler beim Laden der Repositories:', error);
+            document.getElementById('github-projects').innerHTML = "<p>Fehler beim Laden der Projekte. Bitte versuchen Sie es später erneut.</p>";
+        });
+    </script>
+</body>
+</html>
