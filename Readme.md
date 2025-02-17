@@ -14,14 +14,14 @@
 
 ## 🌟 Skills & Expertise
 ```mermaid
-graph TD;
-    A[System Engineering] --> B[Autonomous Driving]
-    A --> C[Functional Safety]
-    A --> D[Model-Based Development]
-    B --> E[AI & Machine Learning]
-    B --> F[Sensor Fusion]
-    C --> G[ISO 26262]
-    C --> H[Cybersecurity]
+    graph TD;
+        A[System Engineering] --> B[Autonomous Driving]
+        A --> C[Functional Safety]
+        A --> D[Model-Based Development]
+        B --> E[AI & Machine Learning]
+        B --> F[Sensor Fusion]
+        C --> G[ISO 26262]
+        C --> H[Cybersecurity]
 ```
 
 <div id="github-projects"></div>
