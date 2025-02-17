@@ -1,60 +1,34 @@
-# Alexander Zimmerer | Portfolio
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: left;">
+        <img src="./images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" style="height: 150px;">
+    </div>
+    <div style="flex: 2;">
+        <h1>🚀 Alexander Zimmerer | Portfolio</h1>  
+        <h2>👨‍💻 About Me</h2>
+        <p>Experienced Team Manager with over 10 years in <strong>System Engineering & Software Architecture</strong>, specializing in <strong>Autonomous Driving, Functional Safety, and Model-Based Development</strong>. Passionate about innovation, agile methodologies, and high-performing teams.</p>
+    </div>
+</div>
 
-## About Me
+## 📜 Resume
+[📥 Download my CV](.ressources/CV_AlexanderZimmerer.pdf)
 
-I am an experienced Team Manager with over 10 years in System Engineering & Software Architecture, specializing in autonomous driving, functional safety, and model-based development.
+## 🌟 Skills & Expertise
+```mermaid
+graph TD;
+    A[System Engineering] --> B[Autonomous Driving]
+    A --> C[Functional Safety]
+    A --> D[Model-Based Development]
+    B --> E[AI & Machine Learning]
+    B --> F[Sensor Fusion]
+    C --> G[ISO 26262]
+    C --> H[Cybersecurity]
+```
 
-## Skills
-
-<div id="skills-chart"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+```html
 <script>
-    const skills = {
-        labels: ['System Engineering', 'Software Architecture', 'Autonomous Driving', 'Functional Safety', 'Model-Based Development'],
-        datasets: [{
-            label: 'Skill Level',
-            data: [5, 5, 4, 4, 5],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-        }]
-    };
-
-    window.onload = function() {
-        const ctx = document.getElementById('skills-chart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: skills,
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 5
-                    }
-                }
-            }
-        });
-    };
-</script>
-
-## Projects
-
-<div id="github-projects"></div>
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/) | [Email](mailto:alexander.zimmerer1988@gmail.com)
-
-<script>
-    const githubUsername = "AlZi-88"; // Set your actual GitHub username here
+    const githubUsername = "AlZi-88"; // Set your GitHub username
     fetch(`https://api.github.com/users/${githubUsername}/repos`)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`GitHub API returned status ${response.status}`);
-        }
-        return response.json();
-    })
+    .then(response => response.json())
     .then(data => {
         let projectContainer = document.getElementById('github-projects');
         if (data.length === 0) {
@@ -73,13 +47,10 @@ I am an experienced Team Manager with over 10 years in System Engineering & Soft
         document.getElementById('github-projects').innerHTML = "<p>Error loading projects. Please try again later.</p>";
     });
 </script>
+<div id="github-projects"></div>
+```
 
-<style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: #f4f4f4; }
-    header { background: #333; color: white; padding: 20px; font-size: 24px; }
-    section { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
-    a { color: #0073e6; text-decoration: none; }
-    .projects { display: flex; flex-wrap: wrap; justify-content: center; }
-    .project { background: #eee; padding: 10px; margin: 10px; border-radius: 5px; width: 45%; }
-    #skills-chart { max-width: 600px; margin: 20px auto; }
-</style>
+## 📬 Contact
+📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
+🐙 [GitHub](https://github.com/AlexanderZimmerer)
