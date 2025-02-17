@@ -10,7 +10,7 @@
 </div>
 
 ## 📜 Resume
-[📥 Download my CV](.ressources/CV_AlexanderZimmerer.pdf)
+[📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
 
 ## 🌟 Skills & Expertise
 ```mermaid
@@ -24,7 +24,7 @@ graph TD;
     C --> H[Cybersecurity]
 ```
 
-```html
+<div id="github-projects"></div>
 <script>
     const githubUsername = "AlZi-88"; // Set your GitHub username
     fetch(`https://api.github.com/users/${githubUsername}/repos`)
@@ -48,7 +48,6 @@ graph TD;
     });
 </script>
 <div id="github-projects"></div>
-```
 
 ## 📬 Contact
 📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
