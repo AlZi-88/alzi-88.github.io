@@ -52,4 +52,4 @@ graph TD;
 ## 📬 Contact
 📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
-🐙 [GitHub](https://github.com/AlexanderZimmerer)
+🐙 [GitHub](https://github.com/AlZi-88)
