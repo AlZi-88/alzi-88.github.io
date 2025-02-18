@@ -9,6 +9,9 @@
     </div>
 </div>
 
+## 🌍 Mission & Vision
+I believe that **technology should empower people**. My goal is to develop **safe, intelligent, and efficient systems** that improve mobility and quality of life. Through **continuous learning, innovation, and collaboration**, I strive to shape the future of **autonomous systems and robotics**. 
+
 ## 📜 Resume
 [📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
 
