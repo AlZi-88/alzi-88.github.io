@@ -17,26 +17,54 @@ I believe that **technology should empower people**. My goal is to develop **saf
 
 ## 🌟 Skills & Expertise
 
-<canvas id="skillsChart" width="400" height="400"></canvas>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div style="width: 250px; text-align: center;">
+        <h4>🚗 Autonomous Driving</h4>
+        <canvas id="chartAutonomousDriving"></canvas>
+    </div>
+    <div style="width: 250px; text-align: center;">
+        <h4>🛡️ Functional Safety</h4>
+        <canvas id="chartFunctionalSafety"></canvas>
+    </div>
+    <div style="width: 250px; text-align: center;">
+        <h4>🤖 AI & Machine Learning</h4>
+        <canvas id="chartMachineLearning"></canvas>
+    </div>
+    <div style="width: 250px; text-align: center;">
+        <h4>🔐 Cybersecurity</h4>
+        <canvas id="chartCybersecurity"></canvas>
+    </div>
+    <div style="width: 250px; text-align: center;">
+        <h4>🎯 Leadership</h4>
+        <canvas id="chartLeadership"></canvas>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-const ctx = document.getElementById('skillsChart').getContext('2d');
-const skillsChart = new Chart(ctx, {
-    type: 'radar',
-    data: {
-        labels: ['Autonomous Driving', 'Functional Safety', 'Machine Learning', 'Cybersecurity', 'Leadership'],
-        datasets: [{
-            label: 'Skill Level',
-            data: [90, 85, 75, 80, 95],
-            backgroundColor: 'rgba(0, 115, 230, 0.5)',
-            borderColor: '#0073e6',
-            borderWidth: 2
-        }]
-    },
-    options: {
-        responsive: true
-    }
-});
+function createDoughnutChart(ctx, value) {
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [value, 100 - value],
+                backgroundColor: ['#0073e6', '#ddd'],
+                borderWidth: 0,
+                cutout: '80%',
+                rotation: 270,
+                circumference: 180
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+    });
+}
+
+createDoughnutChart(document.getElementById('chartAutonomousDriving'), 90);
+createDoughnutChart(document.getElementById('chartFunctionalSafety'), 85);
+createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
+createDoughnutChart(document.getElementById('chartCybersecurity'), 80);
+createDoughnutChart(document.getElementById('chartLeadership'), 95);
 </script>
 
 <div id="github-projects"></div>
