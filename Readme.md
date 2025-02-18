@@ -16,16 +16,79 @@ I believe that **technology should empower people**. My goal is to develop **saf
 [📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
 
 ## 🌟 Skills & Expertise
-```mermaid
-    graph TD;
-        A[System Engineering] --> B[Autonomous Driving]
-        A --> C[Functional Safety]
-        A --> D[Model-Based Development]
-        B --> E[AI & Machine Learning]
-        B --> F[Sensor Fusion]
-        C --> G[ISO 26262]
-        C --> H[Cybersecurity]
-```
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <div style="width: 200px; text-align: center;">
+        <h4>🚗 Autonomous Driving</h4>
+        <canvas id="chartAutonomousDriving" width="200" height="100"></canvas>
+    </div>
+    <div style="width: 200px; text-align: center;">
+        <h4>🛡️ Functional Safety</h4>
+        <canvas id="chartFunctionalSafety" width="200" height="100"></canvas>
+    </div>
+    <div style="width: 200px; text-align: center;">
+        <h4>🤖 AI & Machine Learning</h4>
+        <canvas id="chartMachineLearning" width="200" height="100"></canvas>
+    </div>
+    <div style="width: 200px; text-align: center;">
+        <h4>🔐 Cybersecurity</h4>
+        <canvas id="chartCybersecurity" width="200" height="100"></canvas>
+    </div>
+    <div style="width: 200px; text-align: center;">
+        <h4>🎯 Leadership</h4>
+        <canvas id="chartLeadership" width="200" height="100"></canvas>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+function createDoughnutChart(ctx, value) {
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [value, 100 - value],
+                backgroundColor: ['#0073e6', '#ddd'],
+                borderWidth: 0,
+                cutout: '80%',
+                rotation: 270,
+                circumference: 180
+            }]
+        },
+        options: {
+            responsive: false,
+            maintainAspectRatio: false,
+            plugins: {
+                tooltip: { enabled: false },
+                legend: { display: false },
+                beforeDraw(chart) {
+                    let width = chart.width,
+                        height = chart.height,
+                        ctx = chart.ctx;
+                    ctx.restore();
+                    let fontSize = (height / 10).toFixed(2);
+                    ctx.font = fontSize + "px Arial";
+                    ctx.textBaseline = "middle";
+                    ctx.fillStyle = "#000";
+                    let text = value + "%", 
+                        textX = Math.round((width - ctx.measureText(text).width) / 2),
+                        textY = height / 1.6;
+                    ctx.fillText(text, textX, textY);
+                    ctx.save();
+                }
+            }
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    createDoughnutChart(document.getElementById('chartAutonomousDriving'), 90);
+    createDoughnutChart(document.getElementById('chartFunctionalSafety'), 85);
+    createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
+    createDoughnutChart(document.getElementById('chartCybersecurity'), 80);
+    createDoughnutChart(document.getElementById('chartLeadership'), 95);
+});
+</script>
 
 <div id="github-projects"></div>
 <script>
