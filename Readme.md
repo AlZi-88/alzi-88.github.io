@@ -47,8 +47,8 @@ function createDoughnutChart(ctx, value) {
         type: 'doughnut',
         data: {
             datasets: [{
-                data: [value, 100 - value, 1],
-                backgroundColor: ['#0073e6', '#ddd', 'red'],
+                data: [value, 100 - value],
+                backgroundColor: ['#0073e6', '#ddd'],
                 borderWidth: 0,
                 cutout: '80%',
                 rotation: 270,
@@ -56,21 +56,23 @@ function createDoughnutChart(ctx, value) {
             }]
         },
         options: {
-            responsive: false, 
+            responsive: false,
             maintainAspectRatio: false,
             plugins: {
                 tooltip: { enabled: false },
-                beforeDraw: function(chart) {
+                legend: { display: false },
+                beforeDraw(chart) {
                     let width = chart.width,
                         height = chart.height,
                         ctx = chart.ctx;
                     ctx.restore();
-                    let fontSize = (height / 114).toFixed(2);
-                    ctx.font = fontSize + "em sans-serif";
+                    let fontSize = (height / 10).toFixed(2);
+                    ctx.font = fontSize + "px Arial";
                     ctx.textBaseline = "middle";
+                    ctx.fillStyle = "#000";
                     let text = value + "%", 
                         textX = Math.round((width - ctx.measureText(text).width) / 2),
-                        textY = height / 1.8;
+                        textY = height / 1.6;
                     ctx.fillText(text, textX, textY);
                     ctx.save();
                 }
