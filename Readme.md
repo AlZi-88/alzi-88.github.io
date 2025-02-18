@@ -16,7 +16,14 @@ I believe that **technology should empower people**. My goal is to develop **saf
 [📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
 
 ## 🌟 Skills & Expertise
-```mermaid
+```html
+<div class="mermaid">
+    <div id="mermaid-chart"></div>
+</div>
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+    const graphDefinition = `
     graph TD;
         A[System Engineering] --> B[Autonomous Driving]
         A --> C[Functional Safety]
@@ -25,6 +32,11 @@ I believe that **technology should empower people**. My goal is to develop **saf
         B --> F[Sensor Fusion]
         C --> G[ISO 26262]
         C --> H[Cybersecurity]
+    `;
+    mermaid.render('mermaid-chart', graphDefinition, (svgCode) => {
+        document.getElementById('mermaid-chart').innerHTML = svgCode;
+    });
+</script>
 ```
 
 <div id="github-projects"></div>
