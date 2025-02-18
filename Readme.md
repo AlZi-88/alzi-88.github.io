@@ -41,7 +41,7 @@ I believe that **technology should empower people**. My goal is to develop **saf
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js" async></script>
 <script>
 function createDoughnutChart(ctx, value) {
     new Chart(ctx, {
@@ -60,11 +60,17 @@ function createDoughnutChart(ctx, value) {
     });
 }
 
-createDoughnutChart(document.getElementById('chartAutonomousDriving'), 90);
-createDoughnutChart(document.getElementById('chartFunctionalSafety'), 85);
-createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
-createDoughnutChart(document.getElementById('chartCybersecurity'), 80);
-createDoughnutChart(document.getElementById('chartLeadership'), 95);
+const chartData = [
+    { id: 'chartAutonomousDriving', value: 90 },
+    { id: 'chartFunctionalSafety', value: 85 },
+    { id: 'chartMachineLearning', value: 75 },
+    { id: 'chartCybersecurity', value: 80 },
+    { id: 'chartLeadership', value: 95 }
+];
+
+chartData.forEach(chart => {
+    createDoughnutChart(document.getElementById(chart.id), chart.value);
+});
 </script>
 
 <div id="github-projects"></div>
