@@ -17,31 +17,30 @@ I believe that **technology should empower people**. My goal is to develop **saf
 
 ## 🌟 Skills & Expertise
 
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="width: 250px; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <div style="width: 200px; text-align: center;">
         <h4>🚗 Autonomous Driving</h4>
-        <canvas id="chartAutonomousDriving"></canvas>
+        <canvas id="chartAutonomousDriving" width="200" height="100"></canvas>
     </div>
-    <div style="width: 250px; text-align: center;">
+    <div style="width: 200px; text-align: center;">
         <h4>🛡️ Functional Safety</h4>
-        <canvas id="chartFunctionalSafety"></canvas>
+        <canvas id="chartFunctionalSafety" width="200" height="100"></canvas>
     </div>
-    <div style="width: 250px; text-align: center;">
+    <div style="width: 200px; text-align: center;">
         <h4>🤖 AI & Machine Learning</h4>
-        <canvas id="chartMachineLearning"></canvas>
+        <canvas id="chartMachineLearning" width="200" height="100"></canvas>
     </div>
-    <div style="width: 250px; text-align: center;">
+    <div style="width: 200px; text-align: center;">
         <h4>🔐 Cybersecurity</h4>
-        <canvas id="chartCybersecurity"></canvas>
+        <canvas id="chartCybersecurity" width="200" height="100"></canvas>
     </div>
-    <div style="width: 250px; text-align: center;">
+    <div style="width: 200px; text-align: center;">
         <h4>🎯 Leadership</h4>
-        <canvas id="chartLeadership"></canvas>
+        <canvas id="chartLeadership" width="200" height="100"></canvas>
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 function createDoughnutChart(ctx, value) {
     new Chart(ctx, {
@@ -56,20 +55,16 @@ function createDoughnutChart(ctx, value) {
                 circumference: 180
             }]
         },
-        options: { responsive: true, maintainAspectRatio: false }
+        options: { responsive: false, maintainAspectRatio: false }
     });
 }
 
-const chartData = [
-    { id: 'chartAutonomousDriving', value: 90 },
-    { id: 'chartFunctionalSafety', value: 85 },
-    { id: 'chartMachineLearning', value: 75 },
-    { id: 'chartCybersecurity', value: 80 },
-    { id: 'chartLeadership', value: 95 }
-];
-
-chartData.forEach(chart => {
-    createDoughnutChart(document.getElementById(chart.id), chart.value);
+document.addEventListener("DOMContentLoaded", function() {
+    createDoughnutChart(document.getElementById('chartAutonomousDriving'), 90);
+    createDoughnutChart(document.getElementById('chartFunctionalSafety'), 85);
+    createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
+    createDoughnutChart(document.getElementById('chartCybersecurity'), 80);
+    createDoughnutChart(document.getElementById('chartLeadership'), 95);
 });
 </script>
 
