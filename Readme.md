@@ -16,28 +16,28 @@ I believe that **technology should empower people**. My goal is to develop **saf
 [📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
 
 ## 🌟 Skills & Expertise
-```html
-<div class="mermaid">
-    <div id="mermaid-chart"></div>
-</div>
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-    const graphDefinition = `
-    graph TD;
-        A[System Engineering] --> B[Autonomous Driving]
-        A --> C[Functional Safety]
-        A --> D[Model-Based Development]
-        B --> E[AI & Machine Learning]
-        B --> F[Sensor Fusion]
-        C --> G[ISO 26262]
-        C --> H[Cybersecurity]
-    `;
-    mermaid.render('mermaid-chart', graphDefinition, (svgCode) => {
-        document.getElementById('mermaid-chart').innerHTML = svgCode;
-    });
+
+<canvas id="skillsChart" width="400" height="400"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('skillsChart').getContext('2d');
+const skillsChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: ['Autonomous Driving', 'Functional Safety', 'Machine Learning', 'Cybersecurity', 'Leadership'],
+        datasets: [{
+            label: 'Skill Level',
+            data: [90, 85, 75, 80, 95],
+            backgroundColor: 'rgba(0, 115, 230, 0.5)',
+            borderColor: '#0073e6',
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true
+    }
+});
 </script>
-```
 
 <div id="github-projects"></div>
 <script>
