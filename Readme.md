@@ -48,7 +48,7 @@ function createDoughnutChart(ctx, value) {
         data: {
             datasets: [{
                 data: [value, 100 - value, 1],
-                backgroundColor: ['#0073e6', '#ddd', 'red'],
+                backgroundColor: ['#0073e6', '#ddd'],
                 borderWidth: 0,
                 cutout: '80%',
                 rotation: 270,
