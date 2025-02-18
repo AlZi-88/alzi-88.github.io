@@ -47,15 +47,35 @@ function createDoughnutChart(ctx, value) {
         type: 'doughnut',
         data: {
             datasets: [{
-                data: [value, 100 - value],
-                backgroundColor: ['#0073e6', '#ddd'],
+                data: [value, 100 - value, 1],
+                backgroundColor: ['#0073e6', '#ddd', 'red'],
                 borderWidth: 0,
                 cutout: '80%',
                 rotation: 270,
                 circumference: 180
             }]
         },
-        options: { responsive: false, maintainAspectRatio: false }
+        options: {
+            responsive: false, 
+            maintainAspectRatio: false,
+            plugins: {
+                tooltip: { enabled: false },
+                beforeDraw: function(chart) {
+                    let width = chart.width,
+                        height = chart.height,
+                        ctx = chart.ctx;
+                    ctx.restore();
+                    let fontSize = (height / 114).toFixed(2);
+                    ctx.font = fontSize + "em sans-serif";
+                    ctx.textBaseline = "middle";
+                    let text = value + "%", 
+                        textX = Math.round((width - ctx.measureText(text).width) / 2),
+                        textY = height / 1.8;
+                    ctx.fillText(text, textX, textY);
+                    ctx.save();
+                }
+            }
+        }
     });
 }
 
