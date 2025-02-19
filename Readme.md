@@ -75,6 +75,8 @@ function createDoughnutChart(ctx, value) {
                         textY = height / 1.6;
                     ctx.fillText(text, textX, textY);
                     ctx.save();
+                }
+            }
         }
     });
 }
