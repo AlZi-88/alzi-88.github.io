@@ -59,21 +59,8 @@ function createDoughnutChart(ctx, value) {
             responsive: false,
             maintainAspectRatio: false,
             plugins: {
-                tooltip: { enabled: false },
-                legend: { display: false },
-                let width = chart.width,
-                    height = chart.height,
-                    ctx = chart.ctx;
-                ctx.restore();
-                let fontSize = (height / 10).toFixed(2);
-                ctx.font = fontSize + "px Arial";
-                ctx.textBaseline = "middle";
-                ctx.fillStyle = "#000";
-                let text = value + "%", 
-                    textX = Math.round((width - ctx.measureText(text).width) / 2),
-                    textY = height / 1.6;
-                ctx.fillText(text, textX, textY);
-                ctx.save();                
+                tooltip: { enabled: true },
+                legend: { display: true, position: 'bottom' }             
             }
         }
     });
