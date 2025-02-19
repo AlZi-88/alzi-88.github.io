@@ -59,7 +59,7 @@ function createDoughnutChart(ctx, value) {
             responsive: false,
             maintainAspectRatio: false,
             plugins: {
-                tooltip: { enabled: true },
+                tooltip: { enabled: false },
                 legend: { display: false },
                 let width = chart.width,
                     height = chart.height,
