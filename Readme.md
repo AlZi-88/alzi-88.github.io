@@ -1,12 +1,5 @@
-<div style="display: flex; align-items: center;">
-    <div style="flex: 1; text-align: left;">
-        <img src="./images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" style="height: 150px;">
-    </div>
-    <div style="flex: 2;">
-        <h1>🚀 Alexander Zimmerer | Portfolio</h1>  
-        <h2>👨‍💻 About Me</h2>
-        <p>Experienced Team Manager with over 10 years in <strong>System Engineering & Software Architecture</strong>, specializing in <strong>Autonomous Driving, Functional Safety, and Model-Based Development</strong>. Passionate about innovation, agile methodologies, and high-performing teams.</p>
-    </div>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img src="./images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" style="height: 150px; border-radius: 50%;">
 </div>
 
 ## 📬 Contact
@@ -14,10 +7,13 @@
 🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
 🐙 [GitHub](https://github.com/AlZi-88)
 
-<button onclick="downloadVCard()">Add to Contacts</button>
+<button onclick="downloadVCard()" style="padding: 15px 30px; font-size: 18px; color: white; background-color: #0073e6; border: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); cursor: pointer;">Add to Contacts</button>
+
+## 👨‍💻 About Me
+Entrepreneur, Innovation Architect and experienced tech leader with over 10 years in **System Engineering & Software Architecture**, specializing in **Robotics, Drones and Smart Technologies to reduce bureaucracy for SME**. Passionate about innovation, agile methodologies, and high-performing teams.
 
 ## 🌍 Mission & Vision
-I believe that **technology should empower people**. My goal is to develop **safe, intelligent, and efficient systems** that improve mobility and quality of life. Through **continuous learning, innovation, and collaboration**, I strive to shape the future of **autonomous systems and robotics**. 
+I believe that **technology should empower and serve people** and make all our lives better. My goal is to enable enterprises to establish efficient processes through **automation, digital solutions and drones and robotics technology**. My focus is on delivering innovative and hands-on technology to reduce bureaucracy, save ressources and make your business future-ready.
 
 ## 📜 Resume
 [📥 Download my CV](./ressources/CV_AlexanderZimmerer.pdf)
