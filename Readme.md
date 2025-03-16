@@ -83,9 +83,31 @@ document.addEventListener("DOMContentLoaded", function() {
     createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
     createDoughnutChart(document.getElementById('chartLeadership'), 95);
 });
+
+function downloadVCard() {
+    const vCardData = `BEGIN:VCARD
+VERSION:3.0
+FN:Alexander Zimmerer
+EMAIL:alexander.zimmerer1988@gmail.com
+URL:https://www.linkedin.com/in/alexander-zimmerer-97620275/
+URL:https://github.com/AlZi-88
+END:VCARD`;
+
+    const blob = new Blob([vCardData], { type: 'text/vcard' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Alexander_Zimmerer.vcf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
 </script>
 
 ## 📬 Contact
 📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
 🐙 [GitHub](https://github.com/AlZi-88)
+
+<button onclick="downloadVCard()">Add to Contacts</button>
