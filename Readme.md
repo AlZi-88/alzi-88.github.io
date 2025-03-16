@@ -9,6 +9,13 @@
     </div>
 </div>
 
+## 📬 Contact
+📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
+🐙 [GitHub](https://github.com/AlZi-88)
+
+<button onclick="downloadVCard()">Add to Contacts</button>
+
 ## 🌍 Mission & Vision
 I believe that **technology should empower people**. My goal is to develop **safe, intelligent, and efficient systems** that improve mobility and quality of life. Through **continuous learning, innovation, and collaboration**, I strive to shape the future of **autonomous systems and robotics**. 
 
@@ -105,9 +112,4 @@ END:VCARD`;
 }
 </script>
 
-## 📬 Contact
-📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
-🐙 [GitHub](https://github.com/AlZi-88)
 
-<button onclick="downloadVCard()">Add to Contacts</button>
