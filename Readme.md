@@ -19,8 +19,8 @@ I believe that **technology should empower people**. My goal is to develop **saf
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
     <div style="width: 200px; text-align: center;">
-        <h4>🚗 Autonomous Driving</h4>
-        <canvas id="chartAutonomousDriving" width="200" height="100"></canvas>
+        <h4>🚗 Automation & Robotics</h4>
+        <canvas id="chartAutomation" width="200" height="100"></canvas>
     </div>
     <div style="width: 200px; text-align: center;">
         <h4>🛡️ Functional Safety</h4>
@@ -29,10 +29,6 @@ I believe that **technology should empower people**. My goal is to develop **saf
     <div style="width: 200px; text-align: center;">
         <h4>🤖 AI & Machine Learning</h4>
         <canvas id="chartMachineLearning" width="200" height="100"></canvas>
-    </div>
-    <div style="width: 200px; text-align: center;">
-        <h4>🔐 Cybersecurity</h4>
-        <canvas id="chartCybersecurity" width="200" height="100"></canvas>
     </div>
     <div style="width: 200px; text-align: center;">
         <h4>🎯 Leadership</h4>
@@ -82,10 +78,9 @@ function createDoughnutChart(ctx, value) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    createDoughnutChart(document.getElementById('chartAutonomousDriving'), 90);
+    createDoughnutChart(document.getElementById('chartAutomation'), 90);
     createDoughnutChart(document.getElementById('chartFunctionalSafety'), 85);
     createDoughnutChart(document.getElementById('chartMachineLearning'), 75);
-    createDoughnutChart(document.getElementById('chartCybersecurity'), 80);
     createDoughnutChart(document.getElementById('chartLeadership'), 95);
 });
 </script>
