@@ -90,31 +90,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<div id="github-projects"></div>
-<script>
-    const githubUsername = "AlZi-88"; // Set your GitHub username
-    fetch(`https://api.github.com/users/${githubUsername}/repos`)
-    .then(response => response.json())
-    .then(data => {
-        let projectContainer = document.getElementById('github-projects');
-        if (data.length === 0) {
-            projectContainer.innerHTML = "<p>No projects found.</p>";
-            return;
-        }
-        data.forEach(repo => {
-            let project = document.createElement('div');
-            project.className = 'project';
-            project.innerHTML = `<h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3><p>${repo.description || 'No description available'}</p>`;
-            projectContainer.appendChild(project);
-        });
-    })
-    .catch(error => {
-        console.error('Error loading repositories:', error);
-        document.getElementById('github-projects').innerHTML = "<p>Error loading projects. Please try again later.</p>";
-    });
-</script>
-<div id="github-projects"></div>
-
 ## 📬 Contact
 📧 [Email](mailto:alexander.zimmerer1988@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
