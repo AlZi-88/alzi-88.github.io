@@ -99,8 +99,8 @@ function downloadVCard() {
 VERSION:4.0
 FN:Alexander Zimmerer
 EMAIL:alexander.zimmerer1988@gmail.com
-TEL;CELL;TYPE=Germany:+49 176 629 66 952
-TEL;CELL;TYPE=Austria:+43 660 6247362
+TEL;TYPE=X-Germany:+49 176 629 66 952
+TEL;TYPE=X-Austria:+43 660 6247362
 URL:https://www.linkedin.com/in/alexander-zimmerer-97620275/
 URL:https://alzi-88.github.io
 PHOTO;ENCODING=b;TYPE=JPEG:$(cat ./images/Bewerbungsfoto.jpeg | base64 | tr -d '\n')
