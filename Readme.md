@@ -99,8 +99,10 @@ function downloadVCard() {
 VERSION:3.0
 FN:Alexander Zimmerer
 EMAIL:alexander.zimmerer1988@gmail.com
+TEL:+49 176 629 66 952
+TEL:+43 660 6247362
 URL:https://www.linkedin.com/in/alexander-zimmerer-97620275/
-URL:https://github.com/AlZi-88
+URL:https://alzi-88.github.io
 END:VCARD`;
 
     const blob = new Blob([vCardData], { type: 'text/vcard' });
