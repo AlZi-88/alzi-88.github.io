@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function downloadVCard() {
     const vCardData = `BEGIN:VCARD
-VERSION:3.0
+VERSION:4.0
 FN:Alexander Zimmerer
 EMAIL:alexander.zimmerer1988@gmail.com
 TEL;CELL;TYPE=Germany:+49 176 629 66 952
