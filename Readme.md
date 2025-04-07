@@ -97,13 +97,16 @@ document.addEventListener("DOMContentLoaded", function() {
 function downloadVCard() {
     const vCardData = `BEGIN:VCARD
 VERSION:4.0
+N:Zimmerer;Alexander;;;
 FN:Alexander Zimmerer
 EMAIL:alexander.zimmerer1988@gmail.com
-TEL;TYPE=X-Germany:+49 176 629 66 952
-TEL;TYPE=X-Austria:+43 660 6247362
+item1.TEL:+49 176 62966952
+item1.X-ABLabel:Mobile Germany
+item2.TEL;type=pref:+43 660 6247362
+item2.X-ABLabel:Mobile Austria
 URL:https://www.linkedin.com/in/alexander-zimmerer-97620275/
 URL:https://alzi-88.github.io
-PHOTO;ENCODING=b;TYPE=JPEG:$(cat ./images/Bewerbungsfoto.jpeg | base64 | tr -d '\n')
+PHOTO;ENCODING=b;TYPE=JPEG:$(cat https://github.com/AlZi-88/alzi-88.github.io/tree/main/images/Bewerbungsfoto.jpeg | base64 | tr -d '\n')
 END:VCARD`;
 
     const blob = new Blob([vCardData], { type: 'text/vcard' });
