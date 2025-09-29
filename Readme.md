@@ -56,7 +56,7 @@
 
 <h1 style="text-align:center;">🚀 Portfolio Stack & Operation Horizons</h1>
 
-```mermaid
+<div class="mermaid">
 graph TB
     subgraph H1 ["HORIZON 1 – Manually Assisted Drone Services"]
         H1A["📸 Data Capture (Pilot On-Site)"]
@@ -93,7 +93,7 @@ graph TB
     H3A --> S1;
     H3B --> S4;
     H3C --> S2;
-```
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
