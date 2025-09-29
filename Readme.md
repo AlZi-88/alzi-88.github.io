@@ -20,7 +20,10 @@
 <p style="text-align:center;">Entrepreneur, Innovation Architect and experienced tech leader with over 10 years in <strong>System Engineering & Software Architecture</strong>, specializing in <strong>Robotics, Drones and Smart Technologies to reduce bureaucracy for SME</strong>. Passionate about innovation, agile methodologies, and high-performing teams.</p>
 
 <h1 style="text-align:center;">🌍 Mission & Vision</h1>
-<p style="text-align:center;">I believe that <strong>technology should empower and serve people</strong> and make all our lives better. My goal is to enable enterprises to establish efficient processes through <strong>automation, digital solutions and drones and robotics technology</strong>. My focus is on delivering innovative and hands-on technology to reduce bureaucracy, save ressources and make your business future-ready.</p>
+<p style="text-align:center;">
+<strong>Vision:</strong> I enable automated reality capture and process intelligence for everyone—regardless of budget, industry, or company size. By leveraging open technologies, scalable automation, and data-driven services, my goal is to seamlessly connect the physical and digital worlds—making innovation sustainable, accessible, and precise.<br><br>
+<strong>Mission:</strong> I build a modular ecosystem of <strong>sensors, automation, and data processing</strong> that empowers customers to digitalize complex processes simply, efficiently, and transparently. Combining open source, modern robotics, and tailored consulting, I deliver real value from the first flight to full automation.
+</p>
 
 <h1 style="text-align:center;">📜 Resume</h1>
 <p style="text-align:center;"><a href="./ressources/CV_AlexanderZimmerer.pdf">📥 Download my CV</a></p>
@@ -45,6 +48,47 @@
         <canvas id="chartLeadership" width="200" height="100"></canvas>
     </div>
 </div>
+
+<h1 style="text-align:center;">🚀 Portfolio Stack & Operation Horizons</h1>
+
+```mermaid
+graph TB
+    subgraph H1 ["HORIZON 1 – Manually Assisted Drone Services"]
+        H1A["📸 Data Capture (Pilot On-Site)"]
+        H1B["💻 Manual Data Analysis"]
+        H1C["📝 Report Generation"]
+    end
+
+    subgraph H2 ["HORIZON 2 – Semi-Automated Operation"]
+        H2A["🚁 Autonomous Flight Mission (BVLOS)"]
+        H2B["🧠 Data Classification (AI-Assisted)"]
+        H2C["🗂️ Integrated Results Platform"]
+    end
+
+    subgraph H3 ["HORIZON 3 – Fully Automated Systems"]
+        H3A["🛰️ Data on Demand (via API)"]
+        H3B["⚙️ Backend Integration into Workflows"]
+        H3C["🏗️ System Optimization via Feedback Loops"]
+    end
+
+    subgraph Stack ["Portfolio Stack – 4 Layers"]
+        S1["Sensor & Platform Layer"]
+        S2["Automation & Autonomy Layer"]
+        S3["Data Processing & Value Extraction Layer"]
+        S4["Integration & Decision Support Layer"]
+    end
+
+    %% Mapping of Operations to Stack Layers
+    H1A --> S1
+    H1B --> S3
+    H1C --> S4
+    H2A --> S2
+    H2B --> S3
+    H2C --> S4
+    H3A --> S1
+    H3B --> S4
+    H3C --> S2
+```
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
