@@ -79,16 +79,15 @@ graph TB
     end
 
     %% Mapping of Operations to Stack Layers
-    H1A --> S1
-    H1B --> S3
-    H1C --> S4
-    H2A --> S2
-    H2B --> S3
-    H2C --> S4
-    H3A --> S1
-    H3B --> S4
-    H3C --> S2
-```
+    H1A --> S1;
+    H1B --> S3;
+    H1C --> S4;
+    H2A --> S2;
+    H2B --> S3;
+    H2C --> S4;
+    H3A --> S1;
+    H3B --> S4;
+    H3C --> S2;
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
