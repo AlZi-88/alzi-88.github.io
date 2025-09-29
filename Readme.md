@@ -1,3 +1,8 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img src="./images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" style="height: 150px; border-radius: 50%;">
 </div>
