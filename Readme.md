@@ -20,6 +20,9 @@
 <p style="text-align:center;">
 <button onclick="downloadVCard()" style="padding: 15px 30px; font-size: 18px; color: white; background-color: #0073e6; border: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); cursor: pointer;">Add to Contacts</button>
 </p>
+<p style="text-align:center;">
+<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header', '_blank')" style="padding: 15px 30px; font-size: 18px; color: white; background-color: #0073e6; border: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); cursor: pointer;">Take Survey</button>
+</p>
 
 <h1 style="text-align:center;">👨‍💻 About Me</h1>
 <p style="text-align:center;">Entrepreneur, Innovation Architect and experienced tech leader with over 10 years in <strong>System Engineering & Software Architecture</strong>, specializing in <strong>Robotics, Drones and Smart Technologies to reduce bureaucracy for SME</strong>. Passionate about innovation, agile methodologies, and high-performing teams.</p>
