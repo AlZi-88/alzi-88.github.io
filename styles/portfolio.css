@@ -2,9 +2,18 @@
 .page-header,
 header.page-header,
 .site-header,
+.site-title,
 #header,
+header h1,
 header h1.project-name,
-.project-name {
+.project-name,
+.site-name,
+#site-title,
+body > header,
+body > .container > header,
+.main-content > h1:first-child,
+.markdown-body > h1:first-child,
+.container-lg.markdown-body > h1:first-child {
     display: none !important;
 }
 
