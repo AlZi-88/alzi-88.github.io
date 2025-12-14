@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Visualization</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: transparent;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .skill-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .skill-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .skill-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .progress-ring {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+        
+        .progress-ring-circle {
+            transition: stroke-dashoffset 0.5s ease;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+        
+        .progress-text {
+            font-size: 1.5em;
+            font-weight: 700;
+            fill: #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="skills-container">
+        <div class="skill-card">
+            <div class="skill-icon">🚗</div>
+            <h3 class="skill-title">Automation & Robotics</h3>
+            <svg class="progress-ring" width="120" height="120">
+                <circle
+                    class="progress-ring-bg"
+                    stroke="#e0e0e0"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                />
+                <circle
+                    class="progress-ring-circle"
+                    stroke="#0073e6"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    stroke-dasharray="327"
+                    stroke-dashoffset="33"
+                />
+                <text x="60" y="70" class="progress-text" text-anchor="middle">90%</text>
+            </svg>
+        </div>
+        
+        <div class="skill-card">
+            <div class="skill-icon">🛡️</div>
+            <h3 class="skill-title">Functional Safety</h3>
+            <svg class="progress-ring" width="120" height="120">
+                <circle
+                    class="progress-ring-bg"
+                    stroke="#e0e0e0"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                />
+                <circle
+                    class="progress-ring-circle"
+                    stroke="#4CAF50"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    stroke-dasharray="327"
+                    stroke-dashoffset="49"
+                />
+                <text x="60" y="70" class="progress-text" text-anchor="middle" fill="#4CAF50">85%</text>
+            </svg>
+        </div>
+        
+        <div class="skill-card">
+            <div class="skill-icon">🤖</div>
+            <h3 class="skill-title">AI & Machine Learning</h3>
+            <svg class="progress-ring" width="120" height="120">
+                <circle
+                    class="progress-ring-bg"
+                    stroke="#e0e0e0"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                />
+                <circle
+                    class="progress-ring-circle"
+                    stroke="#FFA726"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    stroke-dasharray="327"
+                    stroke-dashoffset="82"
+                />
+                <text x="60" y="70" class="progress-text" text-anchor="middle" fill="#FFA726">75%</text>
+            </svg>
+        </div>
+        
+        <div class="skill-card">
+            <div class="skill-icon">🎯</div>
+            <h3 class="skill-title">Leadership</h3>
+            <svg class="progress-ring" width="120" height="120">
+                <circle
+                    class="progress-ring-bg"
+                    stroke="#e0e0e0"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                />
+                <circle
+                    class="progress-ring-circle"
+                    stroke="#D14836"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    stroke-dasharray="327"
+                    stroke-dashoffset="16"
+                />
+                <text x="60" y="70" class="progress-text" text-anchor="middle" fill="#D14836">95%</text>
+            </svg>
+        </div>
+    </div>
+    
+    <script>
+        // Animate circles on load
+        window.addEventListener('load', function() {
+            const circles = document.querySelectorAll('.progress-ring-circle');
+            circles.forEach(circle => {
+                const offset = circle.getAttribute('stroke-dashoffset');
+                circle.style.strokeDashoffset = '327';
+                setTimeout(() => {
+                    circle.style.strokeDashoffset = offset;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
