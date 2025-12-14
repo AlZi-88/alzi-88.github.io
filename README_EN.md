@@ -10,7 +10,7 @@ permalink: /en/
 
 
 # Environmental Intelligence Services  
-**Measure. Understand. Automate.**
+## **Measure. Understand. Automate.**
 
 > *This project is currently under development.*  
 > Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)** its evolution.
@@ -65,13 +65,6 @@ I enable **automated reality capture and process intelligence** for everyone—r
 I build a modular ecosystem of **sensors, automation, and data processing** that empowers customers to digitalize complex processes simply, efficiently, and transparently. Combining open source, modern robotics, and tailored consulting, I deliver real value from the first flight to full automation.
 
 ---
-
-## 🌟 Skills & Expertise
-
-| 🚗 Automation & Robotics | 🛡️ Functional Safety | 🤖 AI & Machine Learning | 🎯 Leadership |
-|:---:|:---:|:---:|:---:|
-| **90%** | **85%** | **75%** | **95%** |
-| Expert in robotics systems, drone automation, and industrial IoT | ISO 26262, IEC 61508 certified | Deep Learning, Computer Vision, MLOps | Agile teams, strategic planning |
 
 ## Core Competencies
 

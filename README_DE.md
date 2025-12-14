@@ -10,7 +10,7 @@ permalink: /de/
 
 
 # Environmental Intelligence Services  
-**Messen. Verstehen. Automatisieren.**
+## **Messen. Verstehen. Automatisieren.**
 
 > *Dieses Projekt befindet sich im Aufbau.*  
 > Ich lade Unternehmen, Partner und Interessierte ausdrücklich ein, die Entwicklung **[mitzugestalten](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**.
@@ -73,13 +73,6 @@ Ich ermögliche **automatisierte Reality Capture und Prozessintelligenz** für a
 Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverarbeitung**, das Kunden befähigt, komplexe Prozesse einfach, effizient und transparent zu digitalisieren. Durch die Kombination von Open Source, moderner Robotik und maßgeschneiderter Beratung liefere ich echten Mehrwert – vom ersten Flug bis zur vollständigen Automatisierung.
 
 ---
-
-## 🌟 Fähigkeiten & Expertise
-
-| 🚗 Automatisierung & Robotik | 🛡️ Funktionale Sicherheit | 🤖 KI & Machine Learning | 🎯 Führung |
-|:---:|:---:|:---:|:---:|
-| **90%** | **85%** | **75%** | **95%** |
-| Experte für Robotiksysteme, Drohnenautomatisierung und industrielles IoT | ISO 26262, IEC 61508 zertifiziert | Deep Learning, Computer Vision, MLOps | Agile Teams, strategische Planung |
 
 ### Kernkompetenzen
 
