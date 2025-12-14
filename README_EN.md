@@ -3,9 +3,9 @@ layout: default
 title: Environmental Intelligence Services (EN)
 permalink: /en/
 ---
-<link rel="stylesheet" href="./styles/portfolio.css">
+<link rel="stylesheet" href="./../styles/portfolio.css">
 
-[![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./de/)
+[![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./../de/)
 
 
 # Environmental Intelligence Services  
@@ -28,7 +28,7 @@ I enable organizations to make their environmental and safety impacts continuous
 
 <div align="center">
 
-<img src="./images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 ### Innovation Architect | Tech Leader | Robotics & Drone Expert
 
@@ -97,7 +97,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 <div align="center">
 
-![Portfolio Stack](./diagrams/portfolio_stack.drawio.svg)
+![Portfolio Stack](./../diagrams/portfolio_stack.drawio.svg)
 
 </div>
 
@@ -166,7 +166,7 @@ I actively invite feedback, use cases and pilot ideas:
 
 </div>
 
-<script src="./components/contact-buttons.js"></script>
+<script src="./../components/contact-buttons.js"></script>
 
 ---
 

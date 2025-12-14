@@ -3,9 +3,9 @@ layout: default
 title: Environmental Intelligence Services (DE)
 permalink: /de/
 ---
-<link rel="stylesheet" href="./styles/portfolio.css">
+<link rel="stylesheet" href="./../styles/portfolio.css">
 
-[![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./en/)
+[![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./../en/)
 
 
 # Environmental Intelligence Services  
@@ -28,7 +28,7 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 
 <div align="center">
 
-<img src="./images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 ### Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
 
@@ -60,7 +60,7 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 Hinter *Environmental Intelligence Services* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.  
 Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt‑ und Sicherheitsdaten dort nutzbar zu machen, wo sie im betrieblichen Alltag wirklich helfen.
 
-<img src='./images/AZ_stehend.jpeg' alt='Portrait Alex stehend' width=300>
+<img src='./../images/AZ_stehend.jpeg' alt='Portrait Alex stehend' width=300>
 
 ---
 
@@ -99,7 +99,7 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 <div align="center">
 
-![Portfolio Stack](./diagrams/portfolio_stack.drawio.svg)
+![Portfolio Stack](./../diagrams/portfolio_stack.drawio.svg)
 
 </div>
 
@@ -168,7 +168,7 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 
 </div>
 
-<script src="./components/contact-buttons.js"></script>
+<script src="./../components/contact-buttons.js"></script>
 
 ---
 
