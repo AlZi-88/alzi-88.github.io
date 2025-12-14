@@ -1,5 +1,14 @@
-/* Modern Portfolio Styles */
+/* Hide GitHub Pages default header/title */
+.page-header,
+header.page-header,
+.site-header,
+#header,
+header h1.project-name,
+.project-name {
+    display: none !important;
+}
 
+/* Modern Portfolio Styles */
 :root {
     --primary-color: #0073e6;
     --secondary-color: #4CAF50;
