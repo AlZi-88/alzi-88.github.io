@@ -8,35 +8,34 @@ permalink: /de/
 
 [![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./../en/)
 
+<div class="page-title">Environmental Intelligence Services</div>
+<div class="page-subtitle">Messen. Verstehen. Automatisieren.</div>
 
-# Environmental Intelligence Services  
-## **Messen. Verstehen. Automatisieren.**
-
-> *Dieses Projekt befindet sich im Aufbau.*  
+> *Dieses Projekt befindet sich im Aufbau.*
 > Ich lade Unternehmen, Partner und Interessierte ausdrücklich ein, die Entwicklung **[mitzugestalten](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**.
 
-**Kurzbeschreibung**  
+### Kurzbeschreibung
 Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinuierlich sichtbar zu machen – durch automatisierte, mobile Plattformen mit integrierter Sensorik und Datenservices, die Risiken frühzeitig erkennen, Ressourcen schonen und verantwortungsvolles Handeln im Betrieb unterstützen.
 
 ## Warum jetzt?
 
-- Steigende Umwelt- und Sicherheitsanforderungen treffen auf knappe personelle Ressourcen  
-- Manuelle Kontrollen und punktuelle Messungen stoßen an Grenzen  
-- Automatisierung und kontinuierliche Datenerfassung schaffen Transparenz und Handlungsspielraum  
+- Steigende Umwelt- und Sicherheitsanforderungen treffen auf knappe personelle Ressourcen
+- Manuelle Kontrollen und punktuelle Messungen stoßen an Grenzen
+- Automatisierung und kontinuierliche Datenerfassung schaffen Transparenz und Handlungsspielraum
 - Europäische Green‑Deal‑Initiativen stärken datenbasierte Umweltlösungen
 
 ## Werteangebot
 
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
 
-1. **Mobile Sensorplattformen**  
-   Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
+1. **Mobile Sensorplattformen**
+ Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
 
-2. **Operativer Monitoring‑Service**  
-   Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze – inklusive regulatorischer Einbettung.
+2. **Operativer Monitoring‑Service**
+ Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze – inklusive regulatorischer Einbettung.
 
-3. **Datenservices & Integration**  
-   Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
+3. **Datenservices & Integration**
+ Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
 
 ---
 
@@ -47,15 +46,11 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 <img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 </div>
 
-
-
-
-
 ---
 
 ## 👨‍💻 Über mich
 
-Hinter *Environmental Intelligence Services* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.  
+Hinter *Environmental Intelligence Services* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.
 Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt‑ und Sicherheitsdaten dort nutzbar zu machen, wo sie im betrieblichen Alltag wirklich helfen.
 
 <div align="center">
@@ -136,7 +131,7 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 ### Mitgestalten & Feedback
 
-Dieses Projekt entwickelt sich iterativ.  
+Dieses Projekt entwickelt sich iterativ.
 Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 
 👉 **[Zur kurzen Online‑Umfrage](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**

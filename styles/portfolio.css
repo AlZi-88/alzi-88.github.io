@@ -54,6 +54,12 @@ body {
     transition: var(--transition);
 }
 
+/* Bold text from Markdown ** or __ syntax */
+strong, b {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
 /* Container for markdown content */
 article, .markdown-body {
     max-width: 900px;
@@ -88,6 +94,27 @@ h2 {
 h3 {
     font-size: 1.5em;
     color: var(--primary-color);
+}
+
+/* Title and Subtitle for page header */
+.page-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    border: none;
+    padding: 0;
+}
+
+.page-subtitle {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    border: none;
+    padding: 0;
 }
 
 /* Links */

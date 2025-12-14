@@ -8,35 +8,34 @@ permalink: /en/
 
 [![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./../de/)
 
+<div class="page-title">Environmental Intelligence Services</div>
+<div class="page-subtitle">Measure. Understand. Automate.</div>
 
-# Environmental Intelligence Services  
-## **Measure. Understand. Automate.**
-
-> *This project is currently under development.*  
+> *This project is currently under development.*
 > Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)** its evolution.
 
-**Short Description**  
+### Short Description
 I enable organizations to make their environmental and safety impacts continuously visible through automated, mobile platforms combining integrated sensors and data services that detect risks early, conserve resources and support responsible operational decision‑making.
 
 ## Why now?
 
-- Increasing environmental and safety requirements meet limited human resources  
-- Manual inspections and isolated measurements no longer scale  
-- Automation enables continuous, actionable environmental intelligence  
+- Increasing environmental and safety requirements meet limited human resources
+- Manual inspections and isolated measurements no longer scale
+- Automation enables continuous, actionable environmental intelligence
 - European Green Deal initiatives accelerate demand for data‑driven sustainability solutions
 
 ## Value Proposition
 
 Environmental Intelligence Services combines three tightly integrated components:
 
-1. **Mobile Sensor Platforms**  
-   Automated acquisition of environmental and safety data (e.g. thermography, 3D data, gases, particulates).
+1. **Mobile Sensor Platforms**
+ Automated acquisition of environmental and safety data (e.g. thermography, 3D data, gases, particulates).
 
-2. **Operational Monitoring Services**  
-   Planning, execution, maintenance and gradual automation of operations, including regulatory alignment.
+2. **Operational Monitoring Services**
+ Planning, execution, maintenance and gradual automation of operations, including regulatory alignment.
 
-3. **Data Services & Integration**  
-   Analytics, visualization, reporting and integration into existing environmental, safety and management systems.
+3. **Data Services & Integration**
+ Analytics, visualization, reporting and integration into existing environmental, safety and management systems.
 
 ---
 
@@ -51,7 +50,7 @@ Environmental Intelligence Services combines three tightly integrated components
 
 ## 👨‍💻 About Me
 
-Behind *Environmental Intelligence Services* is an engineer, founder and tech leader with more than **10 years of industrial experience in system engineering, software architecture and automation**.  
+Behind *Environmental Intelligence Services* is an engineer, founder and tech leader with more than **10 years of industrial experience in system engineering, software architecture and automation**.
 My focus lies on combining robotics, open technologies and pragmatic execution to turn environmental and safety data into operational value.
 
 ---
@@ -129,7 +128,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 ### Co‑Create & Provide Feedback
 
-This project evolves iteratively.  
+This project evolves iteratively.
 I actively invite feedback, use cases and pilot ideas:
 
 👉 **[Take the short survey](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**
