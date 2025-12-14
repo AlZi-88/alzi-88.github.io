@@ -45,7 +45,7 @@ Environmental Intelligence Services combines three tightly integrated components
 
 <div align="center">
 
-<img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 </div>
 
