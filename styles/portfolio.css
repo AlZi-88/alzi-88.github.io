@@ -45,6 +45,7 @@ body {
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     line-height: 1.6;
+    font-weight: 400;
     color: var(--text-primary);
     background: var(--bg-body);
     background-attachment: fixed;
@@ -147,7 +148,6 @@ th {
 }
 tr:hover {
     background-color: var(--table-hover);
-}   background-color: #f8f9fa;
 }
 
 /* Buttons */
@@ -215,7 +215,6 @@ code {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
     color: var(--text-primary);
-}   font-size: 0.9em;
 }
 
 /* Horizontal rules */
@@ -232,14 +231,16 @@ ul, ol {
 }
 
 li {
+    margin-bottom: 0.5em;
+    color: var(--text-primary);
+}
+
 /* Blockquotes */
 blockquote {
     border-left: 4px solid var(--primary-color);
     padding-left: 1em;
     margin-left: 0;
-    color: var(--text-primary);
-}   margin-left: 0;
-    color: var(--text-primary);
+    color: var(--text-secondary);
 }
 
 /* GitHub Stats cards */
