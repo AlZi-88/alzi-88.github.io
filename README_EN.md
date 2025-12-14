@@ -4,6 +4,7 @@ title: Environmental Intelligence Services (EN)
 permalink: /en/
 ---
 <link rel="stylesheet" href="./../styles/portfolio.css">
+<script src="./../components/theme-toggle.js"></script>
 
 [![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./../de/)
 
@@ -12,7 +13,7 @@ permalink: /en/
 **Measure. Understand. Automate.**
 
 > *This project is currently under development.*  
-> Companies, partners and early adopters are explicitly invited to **co‑create and shape** its evolution.
+> Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)** its evolution.
 
 **Short Description**  
 I enable organizations to make their environmental and safety impacts continuously visible through automated, mobile platforms combining integrated sensors and data services that detect risks early, conserve resources and support responsible operational decision‑making.
@@ -40,18 +41,13 @@ Environmental Intelligence Services combines three tightly integrated components
 ---
 
 # Alexander Zimmerer
+## Innovation Architect | Tech Leader | Robotics & Drone Expert
 
 <div align="center">
 
 <img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
 </div>
-
-### Innovation Architect | Tech Leader | Robotics & Drone Expert
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
 
 ## 👨‍💻 About Me
 
@@ -147,9 +143,9 @@ I actively invite feedback, use cases and pilot ideas:
 
 ### Get in Touch
 
-📧 **Email**: [alexander.zimmerer1988@gmail.com](mailto:alexander.zimmerer1988@gmail.com)  
-🔗 **LinkedIn**: [Alexander Zimmerer](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
-🐙 **GitHub**: [@AlZi-88](https://github.com/AlZi-88)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
 
 <div id="contact-actions"></div>
 

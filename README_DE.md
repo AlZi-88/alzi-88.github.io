@@ -4,6 +4,7 @@ title: Environmental Intelligence Services (DE)
 permalink: /de/
 ---
 <link rel="stylesheet" href="./../styles/portfolio.css">
+<script src="./../components/theme-toggle.js"></script>
 
 [![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./../en/)
 
@@ -12,7 +13,7 @@ permalink: /de/
 **Messen. Verstehen. Automatisieren.**
 
 > *Dieses Projekt befindet sich im Aufbau.*  
-> Ich lade Unternehmen, Partner und Interessierte ausdrücklich ein, die Entwicklung **mitzugestalten**.
+> Ich lade Unternehmen, Partner und Interessierte ausdrücklich ein, die Entwicklung **[mitzugestalten](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**.
 
 **Kurzbeschreibung**  
 Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinuierlich sichtbar zu machen – durch automatisierte, mobile Plattformen mit integrierter Sensorik und Datenservices, die Risiken frühzeitig erkennen, Ressourcen schonen und verantwortungsvolles Handeln im Betrieb unterstützen.
@@ -40,16 +41,13 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 ---
 
 # Alexander Zimmerer
+## Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
 
 <div align="center">
 <img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 </div>
 
-## Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
-[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
 
 
 
@@ -152,12 +150,12 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 
 ### Kontaktieren Sie mich
 
-📧 **E-Mail**: [alexander.zimmerer1988@gmail.com](mailto:alexander.zimmerer1988@gmail.com)  
-🔗 **LinkedIn**: [Alexander Zimmerer](https://www.linkedin.com/in/alexander-zimmerer-97620275/)  
-🐙 **GitHub**: [@AlZi-88](https://github.com/AlZi-88)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
+[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
 
 <div id="contact-actions"></div>
-<script src="./../components/contact-buttons.js"></script>
+<script src="./../components/contact-buttons_de.js"></script>
 
 ---
 

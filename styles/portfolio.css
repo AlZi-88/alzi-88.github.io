@@ -11,6 +11,27 @@
     --border-radius: 8px;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
+    
+    /* Light mode (default) */
+    --bg-body: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-content: #ffffff;
+    --text-primary: #2c3e50;
+    --text-secondary: #666;
+    --border-color: #e1e4e8;
+    --code-bg: #f6f8fa;
+    --table-hover: #f8f9fa;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+    --bg-body: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --bg-content: #1e1e2e;
+    --text-primary: #ecf0f1;
+    --text-secondary: #b0b0b0;
+    --border-color: #3a3a4a;
+    --code-bg: #2a2a3a;
+    --table-hover: #2a2a3a;
+    --box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -22,28 +43,30 @@ body {
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     line-height: 1.6;
-    color: var(--text-dark);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: var(--text-primary);
+    background: var(--bg-body);
     background-attachment: fixed;
     margin: 0;
     padding: 20px;
+    transition: var(--transition);
 }
 
 /* Container for markdown content */
 article, .markdown-body {
     max-width: 900px;
     margin: 0 auto;
-    background: white;
+    background: var(--bg-content);
     padding: 40px;
     border-radius: var(--border-radius);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-}
-
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: var(--text-dark);
+    color: var(--text-primary);
     margin-top: 2em;
     margin-bottom: 1em;
+    font-weight: 700;
+}   margin-bottom: 1em;
     font-weight: 700;
 }
 
@@ -55,7 +78,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    border-bottom: 2px solid #e1e4e8;
+    border-bottom: 2px solid var(--border-color);
     padding-bottom: 0.3em;
 }
 
@@ -109,7 +132,8 @@ table {
 th, td {
     padding: 15px;
     text-align: center;
-    border-bottom: 1px solid #e1e4e8;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
 }
 
 th {
@@ -119,9 +143,9 @@ th {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-
 tr:hover {
-    background-color: #f8f9fa;
+    background-color: var(--table-hover);
+}   background-color: #f8f9fa;
 }
 
 /* Buttons */
@@ -172,22 +196,24 @@ img[src*="shields.io"], img[src*="badge"] {
     margin: 5px;
     vertical-align: middle;
 }
-
 /* Code blocks */
 pre {
-    background: #f6f8fa;
+    background: var(--code-bg);
     padding: 16px;
     border-radius: var(--border-radius);
     overflow-x: auto;
     border-left: 4px solid var(--primary-color);
+    color: var(--text-primary);
 }
 
 code {
-    background: #f6f8fa;
+    background: var(--code-bg);
     padding: 2px 6px;
     border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
+    color: var(--text-primary);
+}   font-size: 0.9em;
 }
 
 /* Horizontal rules */
@@ -204,14 +230,14 @@ ul, ol {
 }
 
 li {
-    margin: 0.5em 0;
-}
-
 /* Blockquotes */
 blockquote {
     border-left: 4px solid var(--primary-color);
     padding-left: 1em;
     margin-left: 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}   margin-left: 0;
     color: #666;
     font-style: italic;
 }
@@ -281,13 +307,50 @@ img {
     animation: fadeIn 0.6s ease-in-out;
 }
 
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--bg-content);
+    border: 2px solid var(--border-color);
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.theme-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.theme-toggle .icon {
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+/* Hide light icon in light mode, dark icon in dark mode */
+[data-theme="light"] .theme-toggle .dark-icon,
+[data-theme="dark"] .theme-toggle .light-icon {
+    display: none;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--code-bg);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -310,7 +373,21 @@ img {
         box-shadow: none;
     }
     
-    .contact-btn {
+    .contact-btn, .theme-toggle {
         display: none;
+    }
+}
+
+/* Responsive dark mode toggle */
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 10px;
+        right: 10px;
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    
+    .theme-toggle .icon {
+        font-size: 16px;
     }
 }
