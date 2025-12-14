@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="PortfolioStack" name="Portfolio Stack">
+        <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="horizon1" value="HORIZON 1 – Manually Assisted Drone Services" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1a" value="📸 Data Capture&#xa;(Pilot On-Site)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="horizon1">
+                    <mxGeometry x="20" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1b" value="💻 Manual Data&#xa;Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="horizon1">
+                    <mxGeometry x="20" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1c" value="📝 Report&#xa;Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="horizon1">
+                    <mxGeometry x="180" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="horizon2" value="HORIZON 2 – Semi-Automated Operation" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="440" y="80" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2a" value="🚁 Autonomous Flight&#xa;Mission (BVLOS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="horizon2">
+                    <mxGeometry x="20" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2b" value="🧠 Data Classification&#xa;(AI-Assisted)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="horizon2">
+                    <mxGeometry x="20" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2c" value="🗂️ Integrated Results&#xa;Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="horizon2">
+                    <mxGeometry x="180" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="horizon3" value="HORIZON 3 – Fully Automated Systems" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="800" y="80" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3a" value="🛰️ Data on Demand&#xa;(via API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="horizon3">
+                    <mxGeometry x="20" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3b" value="⚙️ Backend Integration&#xa;into Workflows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="horizon3">
+                    <mxGeometry x="20" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3c" value="🏗️ System Optimization&#xa;via Feedback Loops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="horizon3">
+                    <mxGeometry x="180" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="stack" value="Portfolio Stack – 4 Layers" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="340" width="1040" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer1" value="1. Sensor &amp; Platform Layer&#xa;Hardware, Drones, IoT Sensors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontColor=#000000;" vertex="1" parent="stack">
+                    <mxGeometry x="40" y="50" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer2" value="2. Automation &amp; Autonomy Layer&#xa;Flight Control, Path Planning, Safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontColor=#000000;" vertex="1" parent="stack">
+                    <mxGeometry x="300" y="50" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer3" value="3. Data Processing &amp; Value Extraction&#xa;AI/ML, Computer Vision, Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontColor=#000000;" vertex="1" parent="stack">
+                    <mxGeometry x="560" y="50" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer4" value="4. Integration &amp; Decision Support&#xa;APIs, Dashboards, Workflow Automation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontColor=#000000;" vertex="1" parent="stack">
+                    <mxGeometry x="40" y="170" width="740" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="h1a" target="layer1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;" edge="1" parent="1" source="h2a" target="layer2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="h3a" target="layer1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
