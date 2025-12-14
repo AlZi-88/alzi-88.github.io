@@ -29,7 +29,7 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
 
 1. **Mobile Sensorplattformen**  
-   Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z. B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
+   Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
 
 2. **Operativer Monitoring‑Service**  
    Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze – inklusive regulatorischer Einbettung.
@@ -42,8 +42,8 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 # Alexander Zimmerer
 
 <div align="center">
-
 <img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+</div>
 
 ## Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
 
@@ -51,7 +51,7 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
 [![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
 
-</div>
+
 
 ---
 
@@ -60,7 +60,9 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 Hinter *Environmental Intelligence Services* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.  
 Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt‑ und Sicherheitsdaten dort nutzbar zu machen, wo sie im betrieblichen Alltag wirklich helfen.
 
+<div align="center">
 <img src='./../images/AZ_stehend.jpeg' alt='Portrait Alex stehend' width=300>
+</div>
 
 ---
 
@@ -76,14 +78,10 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 ## 🌟 Fähigkeiten & Expertise
 
-<div align="center">
-
 | 🚗 Automatisierung & Robotik | 🛡️ Funktionale Sicherheit | 🤖 KI & Machine Learning | 🎯 Führung |
 |:---:|:---:|:---:|:---:|
 | **90%** | **85%** | **75%** | **95%** |
 | Experte für Robotiksysteme, Drohnenautomatisierung und industrielles IoT | ISO 26262, IEC 61508 zertifiziert | Deep Learning, Computer Vision, MLOps | Agile Teams, strategische Planung |
-
-</div>
 
 ### Kernkompetenzen
 
@@ -99,7 +97,7 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 <div align="center">
 
-![Portfolio Stack](./../diagrams/portfolio_stack.svg)
+<img src="./../diagrams/portfolio_stack.svg" alt="Portfolio Stack">
 
 </div>
 
@@ -131,15 +129,11 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 ## 📊 GitHub-Aktivität
 
-<div align="center">
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlZi-88&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=de)
 
 ![Top Sprachen](https://github-readme-stats.vercel.app/api/top-langs/?username=AlZi-88&layout=compact&theme=tokyonight&hide_border=true&locale=de)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AlZi-88&theme=tokyonight&hide_border=true&locale=de)
-
-</div>
 
 ### Neueste Aktivitäten
 <!--START_SECTION:activity-->
@@ -148,8 +142,6 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 ---
 
 ## 📬 Kontakt & Aktionen
-
-<div align="center">
 
 ### Mitgestalten & Feedback
 
@@ -165,17 +157,10 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 🐙 **GitHub**: [@AlZi-88](https://github.com/AlZi-88)
 
 <div id="contact-actions"></div>
-
-</div>
-
 <script src="./../components/contact-buttons.js"></script>
 
 ---
 
-<div align="center">
-
 *Die Zukunft der automatisierten Reality Capture und Prozessintelligenz gestalten* 🚀
 
 [![Profilaufrufe](https://komarev.com/ghpvc/?username=AlZi-88&color=blue&style=flat-square&label=Profilaufrufe)](https://github.com/AlZi-88)
-
-</div>

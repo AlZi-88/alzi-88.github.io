@@ -45,13 +45,13 @@ Environmental Intelligence Services combines three tightly integrated components
 
 <img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
 
+</div>
+
 ### Innovation Architect | Tech Leader | Robotics & Drone Expert
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
-
-</div>
 
 ## 👨‍💻 About Me
 
@@ -72,14 +72,10 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 ## 🌟 Skills & Expertise
 
-<div align="center">
-
 | 🚗 Automation & Robotics | 🛡️ Functional Safety | 🤖 AI & Machine Learning | 🎯 Leadership |
 |:---:|:---:|:---:|:---:|
 | **90%** | **85%** | **75%** | **95%** |
 | Expert in robotics systems, drone automation, and industrial IoT | ISO 26262, IEC 61508 certified | Deep Learning, Computer Vision, MLOps | Agile teams, strategic planning |
-
-</div>
 
 ## Core Competencies
 
@@ -95,7 +91,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 <div align="center">
 
-![Portfolio Stack](./../diagrams/portfolio_stack.svg)
+<img src="./../diagrams/portfolio_stack.svg" alt="Portfolio Stack">
 
 </div>
 
@@ -127,15 +123,12 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 ## 📊 GitHub Activity
 
-<div align="center">
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlZi-88&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlZi-88&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AlZi-88&theme=tokyonight&hide_border=true)
 
-</div>
 
 ### Recent Activity
 <!--START_SECTION:activity-->
@@ -144,8 +137,6 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 ---
 
 ## 📬 Contact & Actions
-
-<div align="center">
 
 ### Co‑Create & Provide Feedback
 
@@ -162,16 +153,10 @@ I actively invite feedback, use cases and pilot ideas:
 
 <div id="contact-actions"></div>
 
-</div>
-
 <script src="./../components/contact-buttons.js"></script>
 
 ---
 
-<div align="center">
-
 *Building the future of automated reality capture and process intelligence* 🚀
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AlZi-88&color=blue&style=flat-square)](https://github.com/AlZi-88)
-
-</div>
