@@ -6,7 +6,7 @@ permalink: /en/
 <link rel="stylesheet" href="./../styles/portfolio.css">
 <script src="./../components/theme-toggle.js"></script>
 
-[![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./../de/)
+[![Deutsche Variante](https://img.shields.io/badge/🇩🇪_Deutsche_Variante-0077?style=for-the-badge)](./../)
 
 <div class="page-title">Environmental Intelligence Services</div>
 <div class="page-subtitle">Measure. Understand. Automate.</div>

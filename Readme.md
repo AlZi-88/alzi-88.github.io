@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Environmental Intelligence Services (DE)
-permalink: /de/
 ---
 <link rel="stylesheet" href="./styles/portfolio.css">
 <script src="./components/theme-toggle.js"></script>
