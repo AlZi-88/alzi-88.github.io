@@ -24,22 +24,6 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 - Automatisierung und kontinuierliche Datenerfassung schaffen Transparenz und Handlungsspielraum  
 - Europäische Green‑Deal‑Initiativen stärken datenbasierte Umweltlösungen
 
-# Alexander Zimmerer
-
-<div align="center">
-
-<img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-
-### Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
-[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
-
-</div>
-
----
-
 ## Werteangebot
 
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
@@ -52,6 +36,22 @@ Environmental Intelligence Services kombiniert drei Bausteine zu einem integrier
 
 3. **Datenservices & Integration**  
    Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
+
+---
+
+# Alexander Zimmerer
+
+<div align="center">
+
+<img src="./../images/AZ_kniend.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+
+## Innovationsarchitekt | Tech Leader | Robotik & Drohnen-Experte
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
+[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
+
+</div>
 
 ---
 
@@ -99,7 +99,7 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 <div align="center">
 
-![Portfolio Stack](./../diagrams/portfolio_stack.drawio.svg)
+![Portfolio Stack](./../diagrams/portfolio_stack.svg)
 
 </div>
 

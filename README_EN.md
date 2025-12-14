@@ -24,22 +24,6 @@ I enable organizations to make their environmental and safety impacts continuous
 - Automation enables continuous, actionable environmental intelligence  
 - European Green Deal initiatives accelerate demand for data‑driven sustainability solutions
 
-# Alexander Zimmerer
-
-<div align="center">
-
-<img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-
-### Innovation Architect | Tech Leader | Robotics & Drone Expert
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
-
-</div>
-
----
-
 ## Value Proposition
 
 Environmental Intelligence Services combines three tightly integrated components:
@@ -54,6 +38,20 @@ Environmental Intelligence Services combines three tightly integrated components
    Analytics, visualization, reporting and integration into existing environmental, safety and management systems.
 
 ---
+
+# Alexander Zimmerer
+
+<div align="center">
+
+<img src="./../images/Bewerbungsfoto.jpeg" alt="Alexander Zimmerer" width="180" style="border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+
+### Innovation Architect | Tech Leader | Robotics & Drone Expert
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
+
+</div>
 
 ## 👨‍💻 About Me
 
@@ -83,7 +81,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 </div>
 
-### Core Competencies
+## Core Competencies
 
 - **System Engineering**: Requirements engineering, architecture design, verification & validation
 - **Software Development**: Python, C++, ROS, Docker, CI/CD pipelines
@@ -97,7 +95,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 <div align="center">
 
-![Portfolio Stack](./../diagrams/portfolio_stack.drawio.svg)
+![Portfolio Stack](./../diagrams/portfolio_stack.svg)
 
 </div>
 
