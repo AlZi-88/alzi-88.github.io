@@ -13,7 +13,7 @@
     --transition: all 0.3s ease;
     
     /* Light mode (default) */
-    --bg-body: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-body: linear-gradient(135deg, #66b1ea 0%, #4ba299 100%);
     --bg-content: #ffffff;
     --text-primary: #2c3e50;
     --text-secondary: #666;
@@ -22,7 +22,9 @@
     --table-hover: #f8f9fa;
 }
 
-/* Dark mode variables */
+/* Dark mode variables - apply to both html and body for compatibility */
+:root[data-theme="dark"],
+body[data-theme="dark"],
 [data-theme="dark"] {
     --bg-body: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     --bg-content: #1e1e2e;
@@ -340,7 +342,9 @@ img {
 
 /* Hide light icon in light mode, dark icon in dark mode */
 [data-theme="light"] .theme-toggle .dark-icon,
-[data-theme="dark"] .theme-toggle .light-icon {
+[data-theme="dark"] .theme-toggle .light-icon,
+body[data-theme="light"] .theme-toggle .dark-icon,
+body[data-theme="dark"] .theme-toggle .light-icon {
     display: none;
 }
 

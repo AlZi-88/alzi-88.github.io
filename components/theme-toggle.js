@@ -1,4 +1,11 @@
 // Dark Mode Theme Toggle
+(function() {
+    // Apply theme immediately to prevent flash
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    document.body.setAttribute('data-theme', savedTheme);
+})();
+
 document.addEventListener('DOMContentLoaded', function() {
     // Create theme toggle button
     const themeToggle = document.createElement('button');
@@ -13,17 +20,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Check for saved theme preference or default to light mode
     const currentTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', currentTheme);
     updateToggleText(currentTheme);
 
     // Toggle theme on button click
     themeToggle.addEventListener('click', function() {
-        let theme = document.documentElement.getAttribute('data-theme');
+        let theme = document.body.getAttribute('data-theme') || 'light';
         let newTheme = theme === 'light' ? 'dark' : 'light';
         
+        // Set on both html and body for maximum compatibility
         document.documentElement.setAttribute('data-theme', newTheme);
+        document.body.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateToggleText(newTheme);
+        
+        console.log('Theme switched to:', newTheme); // Debug
     });
 
     // Update toggle button text
@@ -40,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!localStorage.getItem('theme')) {
                 const newTheme = e.matches ? 'dark' : 'light';
                 document.documentElement.setAttribute('data-theme', newTheme);
+                document.body.setAttribute('data-theme', newTheme);
                 updateToggleText(newTheme);
             }
         });
