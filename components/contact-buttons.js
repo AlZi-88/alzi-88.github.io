@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="contact-btn" onclick="downloadVCard()">
                     📇 Add to Contacts
                 </button>
-                <button class="contact-btn survey-btn" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header', '_blank')">
+                <button class="contact-btn survey-btn" onclick="window.open('https://forms.gle/CkmjEnmpQj6yFt3P7', '_blank')">
                     📋 Take Survey
                 </button>
             </div>

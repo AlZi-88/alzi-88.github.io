@@ -12,7 +12,7 @@ permalink: /en/
 <div class="page-subtitle">Measure. Understand. Automate.</div>
 
 > *This project is currently under development.*
-> Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)** its evolution.
+> Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://forms.gle/CkmjEnmpQj6yFt3P7)** its evolution.
 
 ### Short Description
 I enable organizations to make their environmental and safety impacts continuously visible through automated, mobile platforms combining integrated sensors and data services that detect risks early, conserve resources and support responsible operational decision‑making.
@@ -131,7 +131,7 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 This project evolves iteratively.
 I actively invite feedback, use cases and pilot ideas:
 
-👉 **[Take the short survey](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**
+👉 **[Take the short survey](https://forms.gle/CkmjEnmpQj6yFt3P7)**
 
 ### Get in Touch
 
