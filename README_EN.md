@@ -24,7 +24,7 @@ I enable organizations to make their environmental and safety impacts continuous
 - Automation enables continuous, actionable environmental intelligence
 - European Green Deal initiatives accelerate demand for data‑driven sustainability solutions
 
-## Value Proposition
+## Services
 
 Environmental Intelligence Services combines three tightly integrated components:
 

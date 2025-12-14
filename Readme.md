@@ -19,7 +19,7 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 - Automatisierung und kontinuierliche Datenerfassung schaffen Transparenz und Handlungsspielraum
 - Europäische Green‑Deal‑Initiativen stärken datenbasierte Umweltlösungen
 
-## Werteangebot
+## Leistungen
 
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
 
