@@ -1,6 +1,11 @@
+---
+layout: default
+title: Environmental Intelligence Services (DE)
+permalink: /de/
+---
 <link rel="stylesheet" href="./styles/portfolio.css">
 
-[![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./README_EN.md)
+[![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./en/)
 
 
 # Environmental Intelligence Services  
