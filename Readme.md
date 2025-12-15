@@ -3,7 +3,7 @@
 
 [![English Version](https://img.shields.io/badge/🇬🇧_English_Version-0077?style=for-the-badge)](./en/)
 
-<div class="page-title">Environmental Intelligence Services</div>
+<div class="page-title">GreenSense Robotics</div>
 <div class="page-subtitle">Messen. Verstehen. Automatisieren.</div>
 
 > *Dieses Projekt befindet sich im Aufbau.*
@@ -45,7 +45,7 @@ Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, S
 
 ## 👨‍💻 Über mich
 
-Hinter *Environmental Intelligence Services* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.
+Hinter *GreenSense Robotics* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.
 Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt‑ und Sicherheitsdaten dort nutzbar zu machen, wo sie im betrieblichen Alltag wirklich helfen.
 
 <div align="center">
@@ -143,3 +143,5 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 *Die Zukunft der automatisierten Reality Capture und Prozessintelligenz gestalten* 🚀
 
 [![Profilaufrufe](https://komarev.com/ghpvc/?username=AlZi-88&color=blue&style=flat-square&label=Profilaufrufe)](https://github.com/AlZi-88)
+
+<small><a href="./Impressum.md">Impressum</a></small>
