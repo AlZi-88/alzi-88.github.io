@@ -63,7 +63,7 @@ body {
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     line-height: 1.6;
-    font-weight: 200;
+    font-weight: 200 !important;
     color: var(--text-primary);
     background: var(--bg-body);
     background-attachment: fixed;
@@ -74,8 +74,16 @@ body {
 
 /* Bold text from Markdown ** or __ syntax */
 strong, b {
-    font-weight: 600;
+    font-weight: 600 !important;
     color: var(--text-primary);
+}
+
+/* Paragraph and text elements - override GitHub default styles */
+p, .markdown-body p, 
+div, .markdown-body div,
+span, .markdown-body span,
+.markdown-body {
+    font-weight: 400 !important;
 }
 
 /* Container for markdown content */
