@@ -10,7 +10,7 @@
 > Ich lade Unternehmen, Partner und Interessierte ausdrücklich ein, die Entwicklung **[mitzugestalten](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**.
 
 ### Kurzbeschreibung
-Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinuierlich sichtbar zu machen – durch automatisierte, mobile Plattformen mit integrierter Sensorik und Datenservices, die Risiken frühzeitig erkennen, Ressourcen schonen und verantwortungsvolles Handeln im Betrieb unterstützen.
+Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinuierlich sichtbar zu machen. Dies geschieht durch automatisierte, mobile Plattformen mit integrierter Sensorik und Datenservices, die Risiken frühzeitig erkennen, Ressourcen schonen und verantwortungsvolles Handeln im Betrieb unterstützen.
 
 ## Warum jetzt?
 
@@ -23,14 +23,14 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
 
-1. **Mobile Sensorplattformen**
- Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
+1. **Mobile Sensorplattformen**:
+Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
 
-2. **Operativer Monitoring‑Service**
- Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze – inklusive regulatorischer Einbettung.
+2. **Operativer Monitoring‑Service**:
+Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze inklusive regulatorischer Einbettung.
 
-3. **Datenservices & Integration**
- Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
+3. **Datenservices & Integration**:
+Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
 
 ---
 
@@ -57,10 +57,10 @@ Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt�
 ## 🌍 Mission & Vision
 
 ### Vision
-Ich ermögliche **automatisierte Reality Capture und Prozessintelligenz** für alle – unabhängig von Budget, Branche oder Unternehmensgröße. Durch den Einsatz offener Technologien, skalierbarer Automatisierung und datengetriebener Services ist mein Ziel, die physische und digitale Welt nahtlos zu verbinden – und Innovation nachhaltig, zugänglich und präzise zu gestalten.
+Ich ermögliche **automatisierte Reality Capture und Prozessintelligenz** für alle, unabhängig von Budget, Branche oder Unternehmensgröße. Durch den Einsatz offener Technologien, skalierbarer Automatisierung und datengetriebener Services ist mein Ziel, die physische und digitale Welt nahtlos zu verbinden und Innovation nachhaltig, zugänglich und präzise zu gestalten.
 
 ### Mission
-Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverarbeitung**, das Kunden befähigt, komplexe Prozesse einfach, effizient und transparent zu digitalisieren. Durch die Kombination von Open Source, moderner Robotik und maßgeschneiderter Beratung liefere ich echten Mehrwert – vom ersten Flug bis zur vollständigen Automatisierung.
+Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverarbeitung**, das Kunden befähigt, komplexe Prozesse einfach, effizient und transparent zu digitalisieren. Durch die Kombination von Open Source, moderner Robotik und maßgeschneiderter Beratung liefere ich echten Mehrwert. Vom ersten Flug bis zur vollständigen Automatisierung.
 
 ---
 
@@ -101,10 +101,10 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 ### Portfolio Stack – 4 Ebenen
 
-1. **Sensor- & Plattform-Ebene** - Hardware, Drohnen, IoT-Sensoren
-2. **Automatisierungs- & Autonomie-Ebene** - Flugsteuerung, Pfadplanung, Sicherheitssysteme
-3. **Datenverarbeitungs- & Wertschöpfungs-Ebene** - KI/ML, Computer Vision, Analytics
-4. **Integrations- & Entscheidungsunterstützungs-Ebene** - APIs, Dashboards, Workflow-Automatisierung
+1. **Sensor- & Plattform-Ebene**: Hardware, Drohnen, IoT-Sensoren
+2. **Automatisierungs- & Autonomie-Ebene**: Flugsteuerung, Pfadplanung, Sicherheitssysteme
+3. **Datenverarbeitungs- & Wertschöpfungs-Ebene**: KI/ML, Computer Vision, Analytics
+4. **Integrations- & Entscheidungsunterstützungs-Ebene**: APIs, Dashboards, Workflow-Automatisierung
 
 ---
 
@@ -113,8 +113,6 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlZi-88&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=de)
 
 ![Top Sprachen](https://github-readme-stats.vercel.app/api/top-langs/?username=AlZi-88&layout=compact&theme=tokyonight&hide_border=true&locale=de)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AlZi-88&theme=tokyonight&hide_border=true&locale=de)
 
 ### Neueste Aktivitäten
 <!--START_SECTION:activity-->

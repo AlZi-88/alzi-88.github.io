@@ -15,7 +15,7 @@ permalink: /en/
 > Companies, partners and early adopters are explicitly invited to **[co‑create and shape](https://forms.gle/CkmjEnmpQj6yFt3P7)** its evolution.
 
 ### Short Description
-I enable organizations to make their environmental and safety impacts continuously visible through automated, mobile platforms combining integrated sensors and data services that detect risks early, conserve resources and support responsible operational decision‑making.
+I enable organizations to make their environmental and safety impacts continuously visible. By automated, mobile platforms combining integrated sensors and data services risks are detected early, resources are conserved and responsible operational decision‑making is supported.
 
 ## Why now?
 
@@ -28,14 +28,14 @@ I enable organizations to make their environmental and safety impacts continuous
 
 Environmental Intelligence Services combines three tightly integrated components:
 
-1. **Mobile Sensor Platforms**
- Automated acquisition of environmental and safety data (e.g. thermography, 3D data, gases, particulates).
+1. **Mobile Sensor Platforms**:
+Automated acquisition of environmental and safety data (e.g. thermography, 3D data, gases, particulates).
 
-2. **Operational Monitoring Services**
- Planning, execution, maintenance and gradual automation of operations, including regulatory alignment.
+2. **Operational Monitoring Services**:
+Planning, execution, maintenance and gradual automation of operations, including regulatory alignment.
 
-3. **Data Services & Integration**
- Analytics, visualization, reporting and integration into existing environmental, safety and management systems.
+3. **Data Services & Integration**:
+Analytics, visualization, reporting and integration into existing environmental, safety and management systems.
 
 ---
 
@@ -102,10 +102,10 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 
 ### Portfolio Stack – 4 Layers
 
-1. **Sensor & Platform Layer** - Hardware, drones, IoT sensors
-2. **Automation & Autonomy Layer** - Flight control, path planning, safety systems
-3. **Data Processing & Value Extraction Layer** - AI/ML, computer vision, analytics
-4. **Integration & Decision Support Layer** - APIs, dashboards, workflow automation
+1. **Sensor & Platform Layer**: Hardware, drones, IoT sensors
+2. **Automation & Autonomy Layer**: Flight control, path planning, safety systems
+3. **Data Processing & Value Extraction Layer**: AI/ML, computer vision, analytics
+4. **Integration & Decision Support Layer**: APIs, dashboards, workflow automation
 
 ---
 
@@ -114,9 +114,6 @@ I build a modular ecosystem of **sensors, automation, and data processing** that
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlZi-88&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlZi-88&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AlZi-88&theme=tokyonight&hide_border=true)
-
 
 ### Recent Activity
 <!--START_SECTION:activity-->
