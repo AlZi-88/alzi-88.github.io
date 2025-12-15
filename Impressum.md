@@ -1,3 +1,11 @@
+---
+layout: default
+title: Environmental Intelligence Services (EN)
+permalink: /im/
+---
+<link rel="stylesheet" href="./../styles/portfolio.css">
+<script src="./../components/theme-toggle.js"></script>
+
 # Impressum
 
 **Medieninhaber und Herausgeber**  
