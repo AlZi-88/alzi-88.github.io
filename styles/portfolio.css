@@ -72,18 +72,33 @@ body {
     transition: var(--transition);
 }
 
-/* Bold text from Markdown ** or __ syntax */
-strong, b {
-    font-weight: 600 !important;
-    color: var(--text-primary);
+/* Paragraph and text elements - override GitHub default styles */
+body p,
+body div,
+body span,
+body li,
+.markdown-body,
+.markdown-body p, 
+.markdown-body div,
+.markdown-body span,
+.markdown-body li,
+.container-lg.markdown-body,
+.container-lg.markdown-body p,
+.container-lg.markdown-body div,
+.container-lg.markdown-body span,
+.container-lg.markdown-body li {
+    font-weight: 300 !important;
 }
 
-/* Paragraph and text elements - override GitHub default styles */
-p, .markdown-body p, 
-div, .markdown-body div,
-span, .markdown-body span,
-.markdown-body {
-    font-weight: 400 !important;
+/* Bold text from Markdown ** or __ syntax */
+body strong,
+body b,
+.markdown-body strong,
+.markdown-body b,
+.container-lg.markdown-body strong,
+.container-lg.markdown-body b {
+    font-weight: 700 !important;
+    color: var(--text-primary);
 }
 
 /* Container for markdown content */
