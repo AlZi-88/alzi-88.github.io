@@ -23,13 +23,13 @@ Ich ermögliche es Unternehmen, ihre Umwelt- und Sicherheitsauswirkungen kontinu
 
 Environmental Intelligence Services kombiniert drei Bausteine zu einem integrierten Service‑Modell:
 
-1. **Mobile Sensorplattformen**:
+1. **Mobile Sensorplattformen**:  
 Automatisierte Erfassung von Umwelt‑ und Sicherheitsdaten (z.B. Thermografie, 3D‑Umfelddaten, Gase, Partikel).
 
-2. **Operativer Monitoring‑Service**:
+2. **Operativer Monitoring‑Service**:  
 Planung, Durchführung, Wartung und schrittweise Automatisierung der Einsätze inklusive regulatorischer Einbettung.
 
-3. **Datenservices & Integration**:
+3. **Datenservices & Integration**:  
 Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, Sicherheits‑ und Managementsystemen.
 
 ---
@@ -45,7 +45,7 @@ Analyse, Visualisierung, Berichte und Schnittstellen zu bestehenden Umwelt‑, S
 
 ## 👨‍💻 Über mich
 
-Hinter *GreenSense Robotics* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.
+Hinter *GreenSense Robotics* stehe ich als Gründer, Ingenieur und Tech Leader mit über **10 Jahren Industrieerfahrung in System Engineering, Software‑Architektur und Automatisierung**.  
 Ich verbinde Robotik, offene Technologien und pragmatische Umsetzung, um Umwelt‑ und Sicherheitsdaten dort nutzbar zu machen, wo sie im betrieblichen Alltag wirklich helfen.
 
 <div align="center">
@@ -124,8 +124,8 @@ Ich baue ein modulares Ökosystem aus **Sensoren, Automatisierung und Datenverar
 
 ### Mitgestalten & Feedback
 
-Dieses Projekt entwickelt sich iterativ.
-Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
+Dieses Projekt entwickelt sich iterativ.  
+Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:  
 
 👉 **[Zur kurzen Online‑Umfrage](https://docs.google.com/forms/d/e/1FAIpQLSdXbcMS_5f3jJeKxTUpH5odcXEOmaBjLBnCosYfu2cb0uRHsA/viewform?usp=header)**
 

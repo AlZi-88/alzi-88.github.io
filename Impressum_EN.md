@@ -8,20 +8,20 @@ permalink: /en/im/
 
 # Legal Notice
 
-**Media Owner and Publisher**  
-Alexander Zimmerer
-Grafenweg 205
-6314 Hopfgarten im Brixental
-Austria  
+**Media Owner and Publisher**
+Alexander Zimmerer  
+Grafenweg 205  
+6314 Hopfgarten im Brixental  
+Austria
 
 **Contact**  
-Email: alex@greensense-robotics.at  
+Email: alex@greensense-robotics.at
 
 **Legal Form**  
 Sole founder / business in formation
 
 **Scope of Activity**  
-Development and provision of services in the fields of  
+Development and provision of services in the fields of
 environmental monitoring, robotics, automation and data-driven services.
 
 ---
