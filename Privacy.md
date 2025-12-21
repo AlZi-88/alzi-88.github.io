@@ -6,14 +6,14 @@ permalink: /en/dp/
 <link rel="stylesheet" href="./../../styles/portfolio.css">
 <script src="./../../components/theme-toggle.js"></script>
 
-## Privacy Notice
+# Privacy Notice
 
 The protection of your personal data is important to me.
 I process personal data exclusively in accordance with applicable data protection laws, in particular the EU General Data Protection Regulation (GDPR).
 
 ---
 
-### Data Controller
+## Data Controller
 Alexander Zimmerer
 Grafenweg 205
 6314 Hopfgarten im Brixental
@@ -23,7 +23,7 @@ Email: alex@greensense-robotics.at
 
 ---
 
-### Website Hosting
+## Website Hosting
 This website is hosted via **GitHub Pages**, a service provided by GitHub Inc.
 
 When accessing this website, technical information such as IP address, date and time of access, and accessed pages may be processed automatically by the hosting provider.
@@ -31,7 +31,7 @@ This data is used solely to ensure the secure and reliable operation of the webs
 
 ---
 
-### Survey / Contact via Google Forms
+## Survey / Contact via Google Forms
 This website links to or embeds a voluntary survey provided via **Google Forms**.
 
 As part of the survey, the following data may be processed:
@@ -47,7 +47,7 @@ The collected data is not shared with third parties and is not used for marketin
 
 ---
 
-### Google Forms
+## Google Forms
 The survey is conducted using **Google Forms**, a service provided by Google LLC (USA).
 
 It cannot be excluded that data may be processed on servers outside the European Union.
@@ -58,12 +58,12 @@ https://policies.google.com/privacy
 
 ---
 
-### Data Retention
+## Data Retention
 Personal data is stored only for as long as necessary to fulfill the respective purpose or as required by applicable legal obligations.
 
 ---
 
-### Your Rights
+## Your Rights
 You have the right to:
 - Access your personal data
 - Rectification
@@ -76,7 +76,7 @@ If you believe that the processing of your data violates data protection law, yo
 
 ---
 
-### Contact
+## Contact
 If you have any questions regarding data protection, please contact:
 alex@greensense-robotics.at
 
