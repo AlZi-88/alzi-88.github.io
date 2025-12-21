@@ -133,7 +133,7 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexander-zimmerer-97620275/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlZi-88)
-[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexander.zimmerer1988@gmail.com)
+[![E-Mail](https://img.shields.io/badge/E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alex@greensense-robotics.at)
 
 <div id="contact-actions"></div>
 <script src="./components/contact-buttons_de.js"></script>
