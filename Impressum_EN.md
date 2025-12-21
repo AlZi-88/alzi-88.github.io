@@ -3,8 +3,8 @@ layout: default
 title: Environmental Intelligence Services (EN)
 permalink: /en/im/
 ---
-<link rel="stylesheet" href="./../styles/portfolio.css">
-<script src="./../components/theme-toggle.js"></script>
+<link rel="stylesheet" href="./../../styles/portfolio.css">
+<script src="./../../components/theme-toggle.js"></script>
 
 # Legal Notice
 
