@@ -34,3 +34,5 @@ Für deren Inhalte wird keine Haftung übernommen.
 
 **Urheberrecht**
 Die durch den Seitenbetreiber erstellten Inhalte unterliegen dem österreichischen Urheberrecht.
+
+[![← Zurück](https://img.shields.io/badge/←_Zur%C3%BCck-D14836?style=for-the-badge)](./../../)
