@@ -146,5 +146,5 @@ I actively invite feedback, use cases and pilot ideas:
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AlZi-88&color=blue&style=flat-square)](https://github.com/AlZi-88)
 
-<small><a href="./../Impressum.md">Impressum</a></small>
-<small><a href="./Privacy.md">Privacy</a></small>
+<small><a href="./../im/">Impressum</a></small>
+<small><a href="./dp/">Privacy</a></small>

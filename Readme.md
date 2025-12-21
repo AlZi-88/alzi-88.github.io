@@ -144,5 +144,5 @@ Ich freue mich über Feedback, Anwendungsfälle und Pilotideen:
 
 [![Profilaufrufe](https://komarev.com/ghpvc/?username=AlZi-88&color=blue&style=flat-square&label=Profilaufrufe)](https://github.com/AlZi-88)
 
-<small><a href="./Impressum.md">Impressum</a></small>
-<small><a href="./Datenschutz.md">Datenschutz</a></small>
+<small><a href="./im/">Impressum</a></small>
+<small><a href="./de/dp/">Datenschutz</a></small>
