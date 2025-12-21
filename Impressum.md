@@ -24,15 +24,17 @@ Einzelunternehmer (in Gründung)
 Entwicklung und Erbringung von Dienstleistungen im Bereich
 Umweltmonitoring, Robotik, Automatisierung und datenbasierte Services.
 
-**Haftung für Inhalte**
+---
+
+## Haftung für Inhalte
 Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt.
 Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
 
-**Haftung für Links**
+## Haftung für Links
 Diese Website enthält Links zu externen Websites Dritter.
 Für deren Inhalte wird keine Haftung übernommen.
 
-**Urheberrecht**
+## Urheberrecht
 Die durch den Seitenbetreiber erstellten Inhalte unterliegen dem österreichischen Urheberrecht.
 
 [![← Zurück](https://img.shields.io/badge/←_Zur%C3%BCck-D14836?style=for-the-badge)](./../../)
