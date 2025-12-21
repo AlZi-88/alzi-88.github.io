@@ -8,30 +8,29 @@ permalink: /im/
 
 # Impressum
 
-**Medieninhaber und Herausgeber**  
-Alexander Zimmerer  
-Green Sense Robotics  
+**Medieninhaber und Herausgeber**
+Alexander Zimmerer
+Grafenweg 205
+6314 Hopfgarten im Brixental
+Österreich
 
-Hopfgarten im Brixental  
-Österreich  
+**Kontakt**
+E-Mail: alex@greensense-robotics.at
 
-**Kontakt**  
-E-Mail: alexander.zimmerer1988@gmail.com  
-
-**Unternehmensform**  
+**Unternehmensform**
 Einzelunternehmer (in Gründung)
 
-**Unternehmensgegenstand**  
-Entwicklung und Erbringung von Dienstleistungen im Bereich  
+**Unternehmensgegenstand**
+Entwicklung und Erbringung von Dienstleistungen im Bereich
 Umweltmonitoring, Robotik, Automatisierung und datenbasierte Services.
 
-**Haftung für Inhalte**  
-Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt.  
+**Haftung für Inhalte**
+Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt.
 Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
 
-**Haftung für Links**  
-Diese Website enthält Links zu externen Websites Dritter.  
+**Haftung für Links**
+Diese Website enthält Links zu externen Websites Dritter.
 Für deren Inhalte wird keine Haftung übernommen.
 
-**Urheberrecht**  
+**Urheberrecht**
 Die durch den Seitenbetreiber erstellten Inhalte unterliegen dem österreichischen Urheberrecht.
